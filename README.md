@@ -9,3 +9,5 @@ At the end of the code, it asks for an user input of which team you want to see.
 
 ## Graph
 The program also generates a bar graoh that can be used to compare the PPG (points per game) of players in the old team vs. the young team. The side by side bar graph gives a clear visual in this comparison.
+
+![Generated graph](https://github.com/cksal007/IS452-Final-Project/blob/master/example.png)
