@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # cleaning the data before using: just makes life easier
-df = pd.read_excel('/Users/Tiffanykim/PycharmProjects/IS452/Final Project/players.xlsx')
+df = pd.read_excel('players.xlsx')
 df.columns = df.iloc[0] #I defined the column names as the first row.
 df.drop(0, inplace=True) # I dropped the first row because I don't need it anymore.
 # select only columns I need, then rename them
